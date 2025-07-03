@@ -49,7 +49,7 @@ export default function CompanyProfilePage() {
         <div className="bg-background">
             <section className="relative h-[50vh] w-full min-h-[300px] md:min-h-[400px]">
                 <Image
-                    src="/banner/banner.jpg"
+                    src="/images/banners/banner.jpg"
                     alt="A collage of business professionals in a modern office setting, representing Enshaynce Partners' corporate environment."
                     data-ai-hint="business collage"
                     fill
