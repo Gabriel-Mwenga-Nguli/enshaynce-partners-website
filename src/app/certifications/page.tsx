@@ -34,14 +34,14 @@ const coreValues = [
 ];
 
 const certifications = [
-    { imageSrc: "/images/certifications/tax-compliance.png", pdfUrl: "/documents/tax-compliance.pdf", alt: "Kenya Revenue Authority Tax Compliance Certificate", title: "Tax Compliance Certificate", hint: "certificate document" },
-    { imageSrc: "/images/certifications/ihrm-practicing.png", pdfUrl: "/documents/ihrm-practicing.pdf", alt: "IHRM Practicing Certificate", title: "IHRM Practicing Certificate", hint: "certificate document" },
-    { imageSrc: "/images/certifications/ihrm-corporate.png", pdfUrl: "/documents/ihrm-corporate.pdf", alt: "IHRM Corporate Certificate", title: "IHRM Corporate Certificate", hint: "certificate document" },
-    { imageSrc: "/images/certifications/good-conduct.png", pdfUrl: "/documents/good-conduct.pdf", alt: "Certificate of Good Conduct", title: "Certificate of Good Conduct", hint: "certificate document" },
-    { imageSrc: "/images/certifications/business-permit.png", pdfUrl: "/documents/business-permit.pdf", alt: "Business Permit", title: "Business Permit", hint: "certificate document" },
-    { imageSrc: "/images/certifications/agpo-certificate.png", pdfUrl: "/documents/agpo-certificate.pdf", alt: "AGPO Certificate", title: "AGPO Certificate", hint: "certificate document" },
-    { imageSrc: "/images/certifications/cr12-certificate.png", pdfUrl: "/documents/cr12-certificate.pdf", alt: "CR12 Certificate", title: "CR12 Certificate", hint: "certificate document" },
-    { imageSrc: "/images/certifications/incorporation.png", pdfUrl: "/documents/incorporation.pdf", alt: "Certificate of Incorporation", title: "Certificate of Incorporation", hint: "certificate document" },
+    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "Kenya Revenue Authority Tax Compliance Certificate", title: "Tax Compliance Certificate", hint: "certificate document" },
+    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "IHRM Practicing Certificate", title: "IHRM Practicing Certificate", hint: "certificate document" },
+    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "IHRM Corporate Certificate", title: "IHRM Corporate Certificate", hint: "certificate document" },
+    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "Certificate of Good Conduct", title: "Certificate of Good Conduct", hint: "certificate document" },
+    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "Business Permit", title: "Business Permit", hint: "certificate document" },
+    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "AGPO Certificate", title: "AGPO Certificate", hint: "certificate document" },
+    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "CR12 Certificate", title: "CR12 Certificate", hint: "certificate document" },
+    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "Certificate of Incorporation", title: "Certificate of Incorporation", hint: "certificate document" },
 ];
 
 export default function CompanyProfilePage() {
