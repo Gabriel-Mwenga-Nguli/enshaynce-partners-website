@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    serverComponentsExternalPackages: ['@opentelemetry/sdk-node', 'handlebars'],
+  },
   images: {
     remotePatterns: [
       {
