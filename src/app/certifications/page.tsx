@@ -35,32 +35,32 @@ const coreValues = [
 
 const certifications = [
     { 
-        imageSrc: "/images/certificates/KRA Tax Compliance.png", 
-        pdfUrl: "/images/certificates/KRA Tax Compliance.png", 
+        imageSrc: "/images/certificates/kra-tax-compliance.png", 
+        pdfUrl: "/images/certificates/kra-tax-compliance.png", 
         alt: "A scanned document of the KRA Tax Compliance Certificate for Enshaynce Partners Limited.", 
         title: "KRA Tax Compliance", 
         description: "Confirms our adherence to national tax regulations, showcasing our commitment to financial integrity and corporate responsibility.",
         hint: "tax certificate" 
     },
     { 
-        imageSrc: "/images/certificates/IHRM Practicing Certificate.png", 
-        pdfUrl: "/images/certificates/IHRM Practicing Certificate.png", 
+        imageSrc: "/images/certificates/ihrm-practicing-certificate.png", 
+        pdfUrl: "/images/certificates/ihrm-practicing-certificate.png", 
         alt: "A scanned document of the IHRM Practicing Certificate for Enshaynce Partners Limited's key personnel.", 
         title: "IHRM Practicing Certificate", 
         description: "Validates that our consultants meet the high professional standards required to practice Human Resource Management in Kenya.",
         hint: "HR certificate" 
     },
     { 
-        imageSrc: "/images/certificates/IHRM Corporate Membership.png", 
-        pdfUrl: "/images/certificates/IHRM Corporate Membership.png", 
+        imageSrc: "/images/certificates/ihrm-corporate-membership.png", 
+        pdfUrl: "/images/certificates/ihrm-corporate-membership.png", 
         alt: "A scanned document of the IHRM Corporate Membership Certificate for Enshaynce Partners Limited.", 
         title: "IHRM Corporate Membership",
         description: "Demonstrates our firm's official affiliation with the Institute of Human Resource Management, aligning us with industry best practices.", 
         hint: "corporate certificate" 
     },
     { 
-        imageSrc: "/images/certificates/Certificate of Incorporation.png", 
-        pdfUrl: "/images/certificates/Certificate of Incorporation.png", 
+        imageSrc: "/images/certificates/certificate-of-incorporation.png", 
+        pdfUrl: "/images/certificates/certificate-of-incorporation.png", 
         alt: "A scanned document of the Certificate of Incorporation for Enshaynce Partners Limited.", 
         title: "Certificate of Incorporation", 
         description: "The official document legally establishing Enshaynce Partners Limited as a registered private limited company in Kenya.",
