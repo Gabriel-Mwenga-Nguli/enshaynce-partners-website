@@ -40,7 +40,7 @@ export default function CertificationsList({ certifications }: CertificationsLis
                             fill
                             className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/70 to-transparent" />
                         <div className="absolute inset-0 flex flex-col justify-end p-6 text-white">
                              <div className="absolute top-4 right-4 rounded-full bg-white/20 p-2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:scale-110">
                                 <ExternalLink className="h-5 w-5 text-white"/>
