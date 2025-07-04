@@ -36,34 +36,30 @@ const coreValues = [
 const certifications = [
     {
         imageSrc: "/images/certificates/kra-tax-compliance.png",
-        pdfUrl: "/images/certificates/kra-tax-compliance.png",
         alt: "KRA Tax Compliance Certificate for Enshaynce Partners Limited.",
         title: "KRA Tax Compliance",
-        description: "Official certification from the Kenya Revenue Authority (KRA) confirming that Enshaynce Partners Limited has met all its tax obligations, demonstrating our financial integrity.",
+        description: "Official certification from the Kenya Revenue Authority (KRA) confirming Enshaynce Partners Limited has met all tax obligations. This certificate, valid until June 26, 2025, demonstrates our financial integrity and commitment to regulatory standards.",
         hint: "tax certificate"
     },
     {
         imageSrc: "/images/certificates/ihrm-practicing-certificate.png",
-        pdfUrl: "/images/certificates/ihrm-practicing-certificate.png",
         alt: "IHRM Practicing Certificate for Enshaynce Partners Limited's Managing Partner.",
         title: "IHRM Practicing Certificate",
-        description: "Issued by the Institute of Human Resource Management (IHRM), this certificate validates that our Managing Partner is a licensed professional adhering to the highest standards of HR practice.",
+        description: "Issued to Steve Martin Ogony by the Institute of Human Resource Management (IHRM), this certificate validates him as a licensed professional, valid for the year 2024 and adhering to the highest standards of HR practice in Kenya.",
         hint: "HR certificate"
     },
     {
         imageSrc: "/images/certificates/ihrm-corporate-membership.png",
-        pdfUrl: "/images/certificates/ihrm-corporate-membership.png",
         alt: "IHRM Corporate Membership Certificate for Enshaynce Partners Limited.",
         title: "IHRM Corporate Membership",
-        description: "This certificate confirms Enshaynce Partners Limited's official registration as a recognized HR consulting firm with the Institute of Human Resource Management (IHRM).",
+        description: "This certificate confirms that Enshaynce Partners Limited is officially registered as a recognized HR consulting firm with the Institute of Human Resource Management (IHRM) for the year 2024.",
         hint: "corporate certificate"
     },
     {
         imageSrc: "/images/certificates/certificate-of-incorporation.png",
-        pdfUrl: "/images/certificates/certificate-of-incorporation.png",
         alt: "Certificate of Incorporation for Enshaynce Partners Limited.",
         title: "Certificate of Incorporation",
-        description: "The foundational legal document from the Registrar of Companies, establishing Enshaynce Partners Limited as a registered private limited company under the laws of Kenya.",
+        description: "The foundational legal document from the Registrar of Companies, certifying that Enshaynce Partners Limited was incorporated as a private limited company under the Companies Act, 2015 of Kenya on October 14, 2021.",
         hint: "legal document"
     },
 ];
