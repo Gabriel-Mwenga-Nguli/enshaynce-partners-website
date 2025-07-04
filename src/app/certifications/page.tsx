@@ -34,14 +34,38 @@ const coreValues = [
 ];
 
 const certifications = [
-    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "Kenya Revenue Authority Tax Compliance Certificate", title: "Tax Compliance Certificate", hint: "certificate document" },
-    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "IHRM Practicing Certificate", title: "IHRM Practicing Certificate", hint: "certificate document" },
-    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "IHRM Corporate Certificate", title: "IHRM Corporate Certificate", hint: "certificate document" },
-    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "Certificate of Good Conduct", title: "Certificate of Good Conduct", hint: "certificate document" },
-    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "Business Permit", title: "Business Permit", hint: "certificate document" },
-    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "AGPO Certificate", title: "AGPO Certificate", hint: "certificate document" },
-    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "CR12 Certificate", title: "CR12 Certificate", hint: "certificate document" },
-    { imageSrc: "https://placehold.co/400x565.png", pdfUrl: "#", alt: "Certificate of Incorporation", title: "Certificate of Incorporation", hint: "certificate document" },
+    { 
+        imageSrc: "/images/certifications/kra.png", 
+        pdfUrl: "/images/certifications/kra.png", 
+        alt: "A scanned document of the KRA Tax Compliance Certificate for Enshaynce Partners Limited.", 
+        title: "KRA Tax Compliance", 
+        description: "Confirms our adherence to national tax regulations, showcasing our commitment to financial integrity and corporate responsibility.",
+        hint: "tax certificate" 
+    },
+    { 
+        imageSrc: "/images/certifications/ihrm-practicing.png", 
+        pdfUrl: "/images/certifications/ihrm-practicing.png", 
+        alt: "A scanned document of the IHRM Practicing Certificate for Enshaynce Partners Limited's key personnel.", 
+        title: "IHRM Practicing Certificate", 
+        description: "Validates that our consultants meet the high professional standards required to practice Human Resource Management in Kenya.",
+        hint: "HR certificate" 
+    },
+    { 
+        imageSrc: "/images/certifications/ihrm-corporate.png", 
+        pdfUrl: "/images/certifications/ihrm-corporate.png", 
+        alt: "A scanned document of the IHRM Corporate Membership Certificate for Enshaynce Partners Limited.", 
+        title: "IHRM Corporate Membership",
+        description: "Demonstrates our firm's official affiliation with the Institute of Human Resource Management, aligning us with industry best practices.", 
+        hint: "corporate certificate" 
+    },
+    { 
+        imageSrc: "/images/certifications/incorporation.png", 
+        pdfUrl: "/images/certifications/incorporation.png", 
+        alt: "A scanned document of the Certificate of Incorporation for Enshaynce Partners Limited.", 
+        title: "Certificate of Incorporation", 
+        description: "The official document legally establishing Enshaynce Partners Limited as a registered private limited company in Kenya.",
+        hint: "legal document" 
+    },
 ];
 
 export default function CompanyProfilePage() {

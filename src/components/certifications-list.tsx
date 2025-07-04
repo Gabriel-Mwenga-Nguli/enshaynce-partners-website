@@ -2,14 +2,16 @@
 'use client';
 
 import Image from "next/image";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import Link from "next/link";
+import { ExternalLink } from "lucide-react";
 
 interface Certificate {
     imageSrc: string;
     pdfUrl: string;
     alt: string;
     title: string;
+    description: string;
     hint: string;
 }
 
@@ -19,7 +21,7 @@ interface CertificationsListProps {
 
 export default function CertificationsList({ certifications }: CertificationsListProps) {
     return (
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {certifications.map((cert, index) => (
                 <Link
                     key={index}
@@ -30,19 +32,23 @@ export default function CertificationsList({ certifications }: CertificationsLis
                     style={{ animationDelay: `${index * 100}ms` }}
                     aria-label={`View certificate: ${cert.title}`}
                 >
-                    <Card className="overflow-hidden text-center transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-xl h-full flex flex-col">
-                        <CardContent className="p-4 aspect-[3/4] flex items-center justify-center bg-muted/30 flex-grow">
-                            <Image
-                                src={cert.imageSrc}
-                                alt={cert.alt}
-                                data-ai-hint={cert.hint}
-                                width={400}
-                                height={565}
-                                className="object-contain w-full h-auto max-h-full transition-transform duration-500 group-hover:scale-105"
-                            />
-                        </CardContent>
-                        <div className="p-4 border-t bg-card">
-                            <h3 className="font-semibold text-base text-foreground">{cert.title}</h3>
+                    <Card className="overflow-hidden relative h-[500px] transition-all duration-300 group-hover:shadow-2xl group-hover:border-primary/50 group-hover:scale-[1.02]">
+                        <Image
+                            src={cert.imageSrc}
+                            alt={cert.alt}
+                            data-ai-hint={cert.hint}
+                            fill
+                            className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                        <div className="absolute inset-0 flex flex-col justify-end p-6 text-white">
+                             <div className="absolute top-4 right-4 rounded-full bg-white/20 p-2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:scale-110">
+                                <ExternalLink className="h-5 w-5 text-white"/>
+                            </div>
+                            <h3 className="font-headline text-2xl font-bold transition-transform duration-300 group-hover:-translate-y-2" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.7)' }}>{cert.title}</h3>
+                            <p className="text-sm text-white/80 max-h-0 opacity-0 transition-all duration-500 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-2">
+                                {cert.description}
+                            </p>
                         </div>
                     </Card>
                 </Link>
