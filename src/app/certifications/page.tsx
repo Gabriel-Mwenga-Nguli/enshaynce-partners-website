@@ -34,37 +34,37 @@ const coreValues = [
 ];
 
 const certifications = [
-    { 
-        imageSrc: "/images/certificates/kra-tax-compliance.png", 
-        pdfUrl: "/images/certificates/kra-tax-compliance.png", 
-        alt: "A scanned document of the KRA Tax Compliance Certificate for Enshaynce Partners Limited.", 
-        title: "KRA Tax Compliance", 
-        description: "Confirms our adherence to national tax regulations, showcasing our commitment to financial integrity and corporate responsibility.",
-        hint: "tax certificate" 
+    {
+        imageSrc: "/images/certificates/kra-tax-compliance.png",
+        pdfUrl: "/images/certificates/kra-tax-compliance.png",
+        alt: "KRA Tax Compliance Certificate for Enshaynce Partners Limited.",
+        title: "KRA Tax Compliance",
+        description: "Official certification from the Kenya Revenue Authority (KRA) confirming that Enshaynce Partners Limited has met all its tax obligations, demonstrating our financial integrity.",
+        hint: "tax certificate"
     },
-    { 
-        imageSrc: "/images/certificates/ihrm-practicing-certificate.png", 
-        pdfUrl: "/images/certificates/ihrm-practicing-certificate.png", 
-        alt: "A scanned document of the IHRM Practicing Certificate for Enshaynce Partners Limited's key personnel.", 
-        title: "IHRM Practicing Certificate", 
-        description: "Validates that our consultants meet the high professional standards required to practice Human Resource Management in Kenya.",
-        hint: "HR certificate" 
+    {
+        imageSrc: "/images/certificates/ihrm-practicing-certificate.png",
+        pdfUrl: "/images/certificates/ihrm-practicing-certificate.png",
+        alt: "IHRM Practicing Certificate for Enshaynce Partners Limited's Managing Partner.",
+        title: "IHRM Practicing Certificate",
+        description: "Issued by the Institute of Human Resource Management (IHRM), this certificate validates that our Managing Partner is a licensed professional adhering to the highest standards of HR practice.",
+        hint: "HR certificate"
     },
-    { 
-        imageSrc: "/images/certificates/ihrm-corporate-membership.png", 
-        pdfUrl: "/images/certificates/ihrm-corporate-membership.png", 
-        alt: "A scanned document of the IHRM Corporate Membership Certificate for Enshaynce Partners Limited.", 
+    {
+        imageSrc: "/images/certificates/ihrm-corporate-membership.png",
+        pdfUrl: "/images/certificates/ihrm-corporate-membership.png",
+        alt: "IHRM Corporate Membership Certificate for Enshaynce Partners Limited.",
         title: "IHRM Corporate Membership",
-        description: "Demonstrates our firm's official affiliation with the Institute of Human Resource Management, aligning us with industry best practices.", 
-        hint: "corporate certificate" 
+        description: "This certificate confirms Enshaynce Partners Limited's official registration as a recognized HR consulting firm with the Institute of Human Resource Management (IHRM).",
+        hint: "corporate certificate"
     },
-    { 
-        imageSrc: "/images/certificates/certificate-of-incorporation.png", 
-        pdfUrl: "/images/certificates/certificate-of-incorporation.png", 
-        alt: "A scanned document of the Certificate of Incorporation for Enshaynce Partners Limited.", 
-        title: "Certificate of Incorporation", 
-        description: "The official document legally establishing Enshaynce Partners Limited as a registered private limited company in Kenya.",
-        hint: "legal document" 
+    {
+        imageSrc: "/images/certificates/certificate-of-incorporation.png",
+        pdfUrl: "/images/certificates/certificate-of-incorporation.png",
+        alt: "Certificate of Incorporation for Enshaynce Partners Limited.",
+        title: "Certificate of Incorporation",
+        description: "The foundational legal document from the Registrar of Companies, establishing Enshaynce Partners Limited as a registered private limited company under the laws of Kenya.",
+        hint: "legal document"
     },
 ];
 
