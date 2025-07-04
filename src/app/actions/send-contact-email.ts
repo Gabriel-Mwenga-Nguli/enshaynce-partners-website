@@ -3,8 +3,6 @@
 import { z } from 'zod';
 import * as nodemailer from 'nodemailer';
 
-export const runtime = 'nodejs';
-
 // Schema for validation, should match the client-side form schema
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
